@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh; 
+}
+.img.favico{
+    width: 16px;
+    height: 16px;
+}
+nav {
+    background-color: rgb(186, 9, 9);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    text-align: left;
+    padding: 100px;
+    background-color: #c60a0a;
+    height: 100vh;
+}
+
+.container h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 20px;
+    max-width: 600px;
+}
+.container a {
+    border-radius: 25px;
+}
+
+.btn {
+    background-color: #FFD700;
+    color: #333;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.product-image {
+    position: absolute;
+    right: 200px;
+    bottom: 70px;
+}
+
+.social-icons {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 130px;
+    margin: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 20px;
+}
+.social-icons img{
+    width: 20px;
+    height: 20px;
+}
+.test{
+    color: white;
+    background-color: rgb(26, 3, 3);
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 100px;
+    height: 100vh;
+    padding-left:110px;
+    align-items: center;
+}
+.test h1{
+    font-size: 40px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.rate{
+    background-color: white;
+    color: black;
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    border-radius: 10px;
+    justify-items: center;
+    text-align: center;
+}
+.rate img{
+    background-size:auto;
+}
+.rate p{
+    color: rgb(156, 152, 152);
+}
+.test .section .rate img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.test .section span{
+    color: red;
+    font-size: 20px;
+}
